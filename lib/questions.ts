@@ -7,39 +7,39 @@ export type Question = {
 
 const quizQuestions: Question[] = [
   {
-    questionText: "What do the initials DB in Aston Martin DB11 stand for?",
+    questionText: "Who is Banksy?",
     image:
-      "https://images.unsplash.com/photo-1642201855395-1c8b44e6e42b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "https://images.unsplash.com/photo-1516345079912-c3e011a5a848?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1185&q=80",
     answers: [
-      "Trick question: nothing!",
-      "David Brown",
-      "Drive Better",
-      "Diane Blue",
+      "No one knows",
+      "Boris Johnson",
+      "Elon Musk",
+      "God Almighty",
     ],
-    correctAnswerIndex: 1,
+    correctAnswerIndex: 0,
   },
   {
-    questionText: "Which car brand is this logo for?",
-    image: "https://www.carlogos.org/logo/Lexus-symbol-640x480.jpg",
-    answers: ["Lamborghini", "Lada", "Lotus", "Lexus"],
-    correctAnswerIndex: 3,
+    questionText: "How much did Beeple's Everydays: the First 5000 Days sell for?",
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Everydays%2C_the_First_5000_Days.jpg/270px-Everydays%2C_the_First_5000_Days.jpg",
+    answers: ["$1", "$42", "$69 million", "Beeple who?"],
+    correctAnswerIndex: 2,
   },
   {
-    questionText: "Where in the UK is the MINI plant?",
+    questionText: "What does JPEG stand for?",
     image:
-      "https://images.unsplash.com/photo-1591439346018-9d5df732ab7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-    answers: ["Oxford", "Cambridge", "London", "Edinburgh"],
+      "https://images.unsplash.com/photo-1448318440207-ef1893eb8ac0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1185&q=80",
+    answers: ["Joint Photographic Experts Group", "Jolly Photographic Experts Group", "Joint Photographic Ether Group", "Joint Photographic Experts Grant"],
     correctAnswerIndex: 0,
   },
   {
     questionText:
-      "Which was the first James Bond film to include an Aston Martin?",
-    answers: ["Dr No", "From Russia with Love", "Goldfinger", "Thunderball"],
-    correctAnswerIndex: 2,
+      "What's the first most used dApp on Ethereum?",
+    answers: ["Uniswap", "CryptoKitty", "Crypto Punks", "Yearn"],
+    correctAnswerIndex: 1,
   },
   {
-    questionText: "What color were all Ferraris originally?",
-    answers: ["Yellow", "White", "Blue", "Red"],
+    questionText: "Who created Bitcoin?",
+    answers: ["Vitalik Buterin", "Elon Musk", "Do Kwon", "No one knows"],
     correctAnswerIndex: 3,
   },
 ];
